@@ -69,7 +69,7 @@ const skillsTL = gsap.timeline({
   scrollTrigger: {
     trigger: ".skills",
     start: "top 80%",
-    end: "bottom 80%",
+    end: "bottom bottom",
   },
 });
 
@@ -95,7 +95,7 @@ gsap
     scrollTrigger: {
       trigger: ".projects",
       start: "top 80%",
-      end: "top 80%",
+      end: "top bottom",
     },
   })
   .from(".projects-heading h1", {
@@ -135,7 +135,7 @@ gsap.timeline({
   scrollTrigger: {
     trigger : ".projects-title",
     start : "top 80%",
-    end: "top 80%"
+    end: "top bottom"
   }
 })
 
@@ -145,7 +145,7 @@ gsap.timeline({
   scrollTrigger: {
     trigger: ".projects-image",
     start: "top 80%",
-    end: "top 80%"
+    end: "top bottom"
   }
 })
 .from(".covidtracker-anim", {x:-20, opacity: 0, stagger: 0.1})
@@ -157,7 +157,7 @@ gsap
     scrollTrigger: {
       trigger: ".contacts",
       start: "top 80%",
-      end: "top 80%",
+      end: "top bottom",
     },
   })
   .from(".contacts-heading h1", {
