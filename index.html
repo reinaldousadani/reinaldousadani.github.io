@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reinaldo Usadani Portfolio
+    </title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" defer></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/TextPlugin.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js" defer></script>
+
+    <script src="animation.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <div class="navbar2">
+        <div class="container flex">
+            <nav>
+                <ul>
+                    <li><a href="#about" class="nav-link">About.</a></li>
+                    <li><a href="#skills" class="nav-link">Skills.</a></li>
+                    <li><a href="#projects" class="nav-link">Projects.</a></li>
+                    <li><a href="#contacts" class="nav-link">Contacts.</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section class="landing" id="about">
+        <div class="navbar">
+            <div class="container flex">
+                <a class="logo" href="#">
+                    reiFolio.
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="#about" class="nav-link">About.</a></li>
+                        <li><a href="#skills" class="nav-link">Skills.</a></li>
+
+                        <li><a href="#projects" class="nav-link">Projects.</a></li>
+                        <li><a href="#contacts" class="nav-link">Contacts.</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="about">
+            <div class="container grid">
+                <div class="left-side">
+                    <h1 class="seq0">👋</h1>
+                    <h1 class="seq1">My name is</h1>
+                    <div class="seq2">
+                        <h1>R</h1>
+                        <h1>e</h1>
+                        <h1>i</h1>
+                        <h1>n</h1>
+                        <h1>a</h1>
+                        <h1>l</h1>
+                        <h1>d</h1>
+                        <h1>o</h1>
+                    </div>
+                    <div class="seq2">
+                        <h1>U</h1>
+                        <h1>s</h1>
+                        <h1>a</h1>
+                        <h1>d</h1>
+                        <h1>a</h1>
+                        <h1>n</h1>
+                        <h1>i</h1>
+                    </div>
+                    <h1 class="seq3">I'm a developer who is passionate to create an application
+                        using HTML, CSS, JavaScript, and MERN (Mongo, Express, React, Node) stack.</h1>
+                </div>
+                <div class="right-side">
+                    <div class="card">
+                        <div class="face-photo"><img src="./images/face.jpg" alt="Face Photo"></div>
+
+                        <p class="bio-uni">Universitas Klabat<br />(2017-2021)</p>
+                        <div class="bio">
+
+                            <p class="bio-degree">Bachelor of Informatics</p>
+                            <p class="bio-gpa">Cum. GPA: 3.59 | Major GPA: 3.72</p>
+                        </div>
+                    </div>
+                    <div class="scroll-down">
+                        Scroll</br>for more !<br />&darr;
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="skills-heading">
+            <h1>S</h1>
+            <h1>k</h1>
+            <h1>i</h1>
+            <h1>l</h1>
+            <h1>l</h1>
+            <h1>s</h1>
+            <h1>.</h1>
+        </div>
+        <div class="skills-desc">
+            <div class="container">
+                <h1>Below are the programming languages / framework that i know, classified by my proficiency.</h1>
+            </div>
+        </div>
+        <div class="container grid col-5">
+            <div class="proficiency proficient-anim">
+                <h3 class="proficient">Proficient</h3>
+                <h3 class="proficient emoji">😤</h3>
+            </div>
+            <div class="card proficient-anim">
+                <div class="proficient-content">
+                    <img src="./images/html.png" alt="" class="skills-icon">
+                    <p>HTML</p>
+                </div>
+            </div>
+            <div class="card proficient-anim">
+                <div class="proficient-content">
+                    <img src="./images/css.png" alt="" class="skills-icon">
+                    <p>CSS</p>
+                </div>
+            </div>
+            <div class="card proficient-anim">
+                <div class="proficient-content">
+                    <img src="./images/javascript.png" alt="" class="skills-icon">
+                    <p>JS</p>
+                </div>
+            </div>
+            <div class="card proficient-anim">
+                <div class="proficient-content">
+                    <img src="./images/react.png" alt="" class="skills-icon">
+                    <p>ReactJS</p>
+                </div>
+            </div>
+            <div class="proficiency intermediate-anim">
+                <h3 class="intermediate">Intermediate</h3>
+                <h3 class="intermediate emoji">🧐</h3>
+            </div>
+            <div class="card intermediate-anim">
+                <div class="intermediate-content">
+                    <img src="./images/mongodb.png" alt="" class="skills-icon">
+                    <p>MongoDB</p>
+                </div>
+            </div>
+            <div class="card intermediate-anim">
+                <div class="intermediate-content">
+                    <img src="./images/mysql.png" alt="" class="skills-icon">
+                    <p>MySQL</p>
+                </div>
+            </div>
+            <div class="card intermediate-anim">
+                <div class="intermediate-content">
+                    <img src="./images/nodejs.png" alt="" class="skills-icon">
+                    <p>NodeJS</p>
+                </div>
+            </div>
+            <div class="card intermediate-anim">
+                <div class="intermediate-content">
+                    <img src="./images/expressjs.png" alt="" class="skills-icon">
+                    <p>ExpressJS</p>
+                </div>
+            </div>
+            <div class="card intermediate-anim">
+                <div class="intermediate-content">
+                    <img src="./images/laravel.png" alt="" class="skills-icon">
+                    <p>Laravel</p>
+                </div>
+            </div>
+            <div class="card intermediate-anim">
+                <div class="intermediate-content">
+                    <img src="./images/php.png" alt="" class="skills-icon">
+                    <p>PHP</p>
+                </div>
+            </div>
+            <div class="proficiency beginner-anim">
+                <h3 class="beginner">Beginner</h3>
+                <h3 class="beginner emoji">🥺</h3>
+            </div>
+            <div class="card beginner-anim">
+                <div class="beginner-content">
+                    <img src="./images/python.png" alt="" class="skills-icon">
+                    <p>Python</p>
+                </div>
+            </div>
+            <div class="card beginner-anim">
+                <div class="beginner-content">
+                    <img src="./images/csharp.png" alt="" class="skills-icon">
+                    <p>C#</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="projects-heading">
+            <h1>P</h1>
+            <h1>r</h1>
+            <h1>o</h1>
+            <h1>j</h1>
+            <h1>e</h1>
+            <h1>c</h1>
+            <h1>t</h1>
+            <h1>s</h1>
+            <h1>.</h1>
+        </div>
+        <div class="projects-showcase">
+            <video src="./videos/projvid.mp4"></video>
+        </div>
+        <div class="container">
+            <div class="projects-title ucommerce-anim">
+                <h3>uCommerce</h3>
+            </div>
+            <div class="projects-desc ucommerce-anim">
+                <h1>uCommerce is a Consumer-to-Consumer e-Commerce web app that allows student of Universitas Klabat to
+                    sell their products online. This is a multiseller e-Commerce app made with : </h1>
+            </div>
+            <div class="grid">
+                <div class="card ucommerce-anim">
+                    <div class="proficient-content">
+                        <img src="./images/html.png" alt="" class="skills-icon">
+                        <p>HTML</p>
+                    </div>
+                </div>
+                <div class="card ucommerce-anim">
+                    <div class="proficient-content">
+                        <img src="./images/css.png" alt="" class="skills-icon">
+                        <p>CSS</p>
+                    </div>
+                </div>
+                <div class="card ucommerce-anim">
+                    <div class="proficient-content">
+                        <img src="./images/javascript.png" alt="" class="skills-icon">
+                        <p>JS</p>
+                    </div>
+                </div>
+                <div class="card ucommerce-anim">
+                    <div class="intermediate-content">
+                        <img src="./images/mysql.png" alt="" class="skills-icon">
+                        <p>MySQL</p>
+                    </div>
+                </div>
+                <div class="card ucommerce-anim">
+                    <div class="intermediate-content">
+                        <img src="./images/laravel.png" alt="" class="skills-icon">
+                        <p>Laravel</p>
+                    </div>
+                </div>
+                <div class="card ucommerce-anim">
+                    <div class="intermediate-content">
+                        <img src="./images/php.png" alt="" class="skills-icon">
+                        <p>PHP</p>
+                    </div>
+                </div>
+            </div>
+            <div class="github-link ucommerce-anim">
+                <i class="fab fa-github fa-2x"></i>
+                <a href="https://github.com/reinaldousadani/ucommerce" target="_blank" rel="noopener noreferrer" class="">Visit Github</i></a>
+            </div>
+            <img src="./images/covidtracker.PNG" alt="CovidTracker" class="projects-image covidtracker-anim">
+            <div class="projects-title covidtracker-anim">
+                <h3>CovidTracker</h3>
+            </div>
+            <div class="projects-desc covidtracker-anim">
+                <h1>CovidTracker is a simple app i made to display the numbers of covid-19 cases around the world,
+                    Indonesia, and Indonesia provinces. This app is mainly used to train myself on how to use an API and
+                    displaying the data fetched from the API. This app is made with : </h1>
+            </div>
+            <div class="grid">
+                <div class="card covidtracker-anim">
+                    <div class="proficient-content">
+                        <img src="./images/html.png" alt="" class="skills-icon">
+                        <p>HTML</p>
+                    </div>
+                </div>
+                <div class="card covidtracker-anim">
+                    <div class="proficient-content">
+                        <img src="./images/css.png" alt="" class="skills-icon">
+                        <p>CSS</p>
+                    </div>
+                </div>
+                <div class="card covidtracker-anim">
+                    <div class="proficient-content">
+                        <img src="./images/javascript.png" alt="" class="skills-icon">
+                        <p>JS</p>
+                    </div>
+                </div>
+                <div class="card covidtracker-anim">
+                    <div class="proficient-content">
+                        <img src="./images/react.png" alt="" class="skills-icon">
+                        <p>ReactJS</p>
+                    </div>
+                </div>
+            </div>
+            <div class="github-link covidtracker-anim">
+                <i class="fab fa-github fa-2x"></i>
+                <a href="https://github.com/reinaldousadani/CovidTracker" target="_blank" rel="noopener noreferrer" class="">Visit Github</i></a>
+            </div>
+        </div>
+
+    </section>
+    <section class="contacts" id="contacts">
+        <div class="contacts-heading">
+            <h1>C</h1>
+            <h1>o</h1>
+            <h1>n</h1>
+            <h1>t</h1>
+            <h1>a</h1>
+            <h1>c</h1>
+            <h1>t</h1>
+            <h1>s</h1>
+            <h1>.</h1>
+        </div>
+        <div class="contacts-desc">
+            <div class="container">
+                <h1 class="contacts-anim">Below are my social medias if you want to contact me. Feel free to message me anything! 😉</h1>
+            </div>
+            <div class="container grid">
+                <div class="socmed-links contacts-anim">
+                    <a href="https://www.instagram.com/reivanrulloff/" target="_blank" rel="noopener noreferrer"> <img
+                            src="./images/instagram.png" alt="">
+                        <span class="tooltip-link">Go to Link</span></a>
+                    <p>@reivanrulloff</p>
+                </div>
+                <div class="socmed-links contacts-anim">
+                    <a onclick="copyDiscord()"> <img src="./images/discord.png" alt="">
+                        <span class="tooltip-copy">Copy Username</span></a>
+                    <p id="discordId">Reivanrulloff(Arte)#2978</p>
+                </div>
+                <div class="socmed-links contacts-anim">
+                    <a href="https://github.com/reinaldousadani" target="_blank" rel="noopener noreferrer"> <img
+                            src="./images/github.png" alt="">
+                        <span class="tooltip-link">Go to Link</span></a>
+                    <p>reinaldousadani</p>
+                </div>
+                <div class="socmed-links contacts-anim">
+                    <a onclick="copyGmail()"> <img src="./images/gmail.png" alt="">
+                        <span class="tooltip-copy">Copy Email</span></a>
+                    <p id="gmailId">reinaldo.vanrulloff.96@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </div>
+</body>
+
+</html>
