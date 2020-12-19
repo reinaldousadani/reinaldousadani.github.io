@@ -18,3 +18,6 @@ function copyGmail(){
     document.body.removeChild(elem);
     alert("Copied : " + text);
 }
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+  }
